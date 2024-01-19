@@ -3,10 +3,13 @@
  * @file
  * Stringoverride main module.
  */
-function hook_autoload_info() {
+/** 
+* Implements hook_autoload_info().
+*/
+function stringoverrides_migrate_autoload_info() {
   return array(
-    'ClassName' => 'stringoverrides_migrate.module',
-    'ClassName' => 'stringoverrides_migrate.admin.inc',
+    'stringoverrides_migrate_module' => 'stringoverrides_migrate.module',
+    'stringoverrides_migrate_admin' => 'stringoverrides_migrate.admin.inc',
   );
 } 
 /**
