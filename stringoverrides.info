@@ -1,7 +1,8 @@
+type = module
 name = String Overrides
 description = Provides a quick and easy way of replacing text.
 core = 7.x
-
+backdrop = 1.x
 configure = admin/config/regional/stringoverrides
 
 ; Information added by Drupal.org packaging script on 2023-09-18
